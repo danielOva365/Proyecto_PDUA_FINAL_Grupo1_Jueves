@@ -1,0 +1,766 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dC:/Users/juan/Desktop/PDUA_Final/simulation/modelsim
+Eadd_sub
+Z1 w1654237412
+Z2 DPx4 ieee 11 numeric_std 0 22 :ASDNFgHXf_ih3J@9F3Ze1
+Z3 DPx3 std 6 textio 0 22 zE1`LPoLg^DX3Oz^4Fj1K3
+Z4 DPx4 ieee 14 std_logic_1164 0 22 eNV`TJ_GofJTzYa?f<@Oe1
+R0
+Z5 8C:/Users/juan/Desktop/PDUA_Final/add_sub.vhd
+Z6 FC:/Users/juan/Desktop/PDUA_Final/add_sub.vhd
+l0
+L5
+Vj?_g:jhNfbAgL9N7SD@zJ3
+!s100 ZNi:oc8[EC]JaTYnSN73e0
+Z7 OV;C;10.5b;63
+31
+Z8 !s110 1654245597
+!i10b 1
+Z9 !s108 1654245597.000000
+Z10 !s90 -reportprogress|300|-93|-work|work|C:/Users/juan/Desktop/PDUA_Final/add_sub.vhd|
+Z11 !s107 C:/Users/juan/Desktop/PDUA_Final/add_sub.vhd|
+!i113 1
+Z12 o-93 -work work
+Z13 tExplicit 1 CvgOpt 0
+Artl
+Z14 DEx4 work 10 nbit_adder 0 22 Y>:Gn6HL>oL7PWmhh[oA21
+R2
+R3
+R4
+Z15 DEx4 work 7 add_sub 0 22 j?_g:jhNfbAgL9N7SD@zJ3
+l18
+L14
+V>`>Nn>MWUL>@SS9PHU_]>2
+!s100 TQ;nY@>S@ml@Fo?U3Nd=m0
+R7
+31
+R8
+!i10b 1
+R9
+R10
+R11
+!i113 1
+R12
+R13
+Ealu
+Z16 w1654237455
+R2
+R3
+R4
+R0
+Z17 8C:/Users/juan/Desktop/PDUA_Final/ALU.vhd
+Z18 FC:/Users/juan/Desktop/PDUA_Final/ALU.vhd
+l0
+L6
+VHSzo4LdA3;?[HB94U>F;63
+!s100 kNQJ3?mf1:XUoBV9fEZ4>0
+R7
+31
+R8
+!i10b 1
+R9
+Z19 !s90 -reportprogress|300|-93|-work|work|C:/Users/juan/Desktop/PDUA_Final/ALU.vhd|
+Z20 !s107 C:/Users/juan/Desktop/PDUA_Final/ALU.vhd|
+!i113 1
+R12
+R13
+Artl
+Z21 DEx4 work 9 shif_unit 0 22 0liHCUURePMElBYKSbG0i2
+Z22 DEx4 work 13 flag_register 0 22 V400oQ7RPDGHYf2RHQd2j1
+Z23 DEx4 work 15 processing_unit 0 22 @R[OnVjeIaj<MbLd3=BQP0
+R2
+R3
+R4
+Z24 DEx4 work 3 alu 0 22 HSzo4LdA3;?[HB94U>F;63
+l31
+L20
+VVcCgTf:Ze6zLGH?PfQ4JG1
+!s100 @B?EJY2P_ETQfT[J2A<WX2
+R7
+31
+R8
+!i10b 1
+R9
+R19
+R20
+!i113 1
+R12
+R13
+Econtrol_unit
+Z25 w1654237507
+R2
+R3
+R4
+R0
+Z26 8C:/Users/juan/Desktop/PDUA_Final/control_unit.vhd
+Z27 FC:/Users/juan/Desktop/PDUA_Final/control_unit.vhd
+l0
+L5
+VFchaaYAGL]`S6__4B=>eI1
+!s100 PQGCK?TY80X]iCb4lAdk_2
+R7
+31
+R8
+!i10b 1
+R9
+Z28 !s90 -reportprogress|300|-93|-work|work|C:/Users/juan/Desktop/PDUA_Final/control_unit.vhd|
+Z29 !s107 C:/Users/juan/Desktop/PDUA_Final/control_unit.vhd|
+!i113 1
+R12
+R13
+Artl
+Z30 DEx4 work 14 uprogrammemory 0 22 ]<7cfO_?mFg?4QKL7AC8N1
+R15
+Z31 DEx4 work 3 upc 0 22 i`aWd?cG?VGb]_Aaf?j[32
+R2
+R3
+R4
+Z32 DEx4 work 12 control_unit 0 22 FchaaYAGL]`S6__4B=>eI1
+l59
+L26
+Vf3;]3G2Wb2_j0_[Xz0@B?1
+!s100 [ZT:U1_:HJSzoY7_ASz491
+R7
+31
+R8
+!i10b 1
+R9
+R28
+R29
+!i113 1
+R12
+R13
+Eflag_register
+Z33 w1654237548
+R2
+R3
+R4
+R0
+Z34 8C:/Users/juan/Desktop/PDUA_Final/flag_register.vhd
+Z35 FC:/Users/juan/Desktop/PDUA_Final/flag_register.vhd
+l0
+L5
+VV400oQ7RPDGHYf2RHQd2j1
+!s100 3UC<RYjI<?dmd0UTk_?3z3
+R7
+31
+Z36 !s110 1654245596
+!i10b 1
+Z37 !s108 1654245596.000000
+Z38 !s90 -reportprogress|300|-93|-work|work|C:/Users/juan/Desktop/PDUA_Final/flag_register.vhd|
+Z39 !s107 C:/Users/juan/Desktop/PDUA_Final/flag_register.vhd|
+!i113 1
+R12
+R13
+Artl
+R2
+R3
+R4
+R22
+l18
+L16
+V:6N>7OQRM]5:AeE19];[a3
+!s100 H`;__d4X8on;R6`MnK3J@0
+R7
+31
+R36
+!i10b 1
+R37
+R38
+R39
+!i113 1
+R12
+R13
+Efull_adder
+Z40 w1654237604
+R2
+R3
+R4
+R0
+Z41 8C:/Users/juan/Desktop/PDUA_Final/full_adder.vhd
+Z42 FC:/Users/juan/Desktop/PDUA_Final/full_adder.vhd
+l0
+L5
+VjIn9GWcHClNVd>`@<J_zo2
+!s100 `NPQX[z?m]k17H[IDB:a[3
+R7
+31
+R36
+!i10b 1
+R37
+Z43 !s90 -reportprogress|300|-93|-work|work|C:/Users/juan/Desktop/PDUA_Final/full_adder.vhd|
+Z44 !s107 C:/Users/juan/Desktop/PDUA_Final/full_adder.vhd|
+!i113 1
+R12
+R13
+Agatelevel
+R2
+R3
+R4
+Z45 DEx4 work 10 full_adder 0 22 jIn9GWcHClNVd>`@<J_zo2
+l14
+L13
+VJ`B8nkAjTZeMl9SX4fW^51
+!s100 hnU70;VzGjJ?j[B;BQ6Oj3
+R7
+31
+R36
+!i10b 1
+R37
+R43
+R44
+!i113 1
+R12
+R13
+Eint_reg
+Z46 w1654237649
+R2
+R3
+R4
+R0
+Z47 8C:/Users/juan/Desktop/PDUA_Final/INT_REG.vhd
+Z48 FC:/Users/juan/Desktop/PDUA_Final/INT_REG.vhd
+l0
+L5
+VJ2l_WW>U[TF:=TR5eT[jo0
+!s100 `mg0O]aXR388B3goF59`G0
+R7
+31
+R36
+!i10b 1
+R37
+Z49 !s90 -reportprogress|300|-93|-work|work|C:/Users/juan/Desktop/PDUA_Final/INT_REG.vhd|
+Z50 !s107 C:/Users/juan/Desktop/PDUA_Final/INT_REG.vhd|
+!i113 1
+R12
+R13
+Artl
+R2
+R3
+R4
+Z51 DEx4 work 7 int_reg 0 22 J2l_WW>U[TF:=TR5eT[jo0
+l21
+L17
+V2?1b^UTlEjJ`mO4ON@>OL2
+!s100 8iiYja>;>Z0Q[jengLhdz2
+R7
+31
+R36
+!i10b 1
+R37
+R49
+R50
+!i113 1
+R12
+R13
+Eir
+Z52 w1654237675
+R2
+R3
+R4
+R0
+Z53 8C:/Users/juan/Desktop/PDUA_Final/IR.vhd
+Z54 FC:/Users/juan/Desktop/PDUA_Final/IR.vhd
+l0
+L5
+VGSUJ2WPCJ7cl]6<3^Xj]?3
+!s100 `5Ok4_TT^J8cNiHj0U1Bf3
+R7
+31
+R36
+!i10b 1
+R37
+Z55 !s90 -reportprogress|300|-93|-work|work|C:/Users/juan/Desktop/PDUA_Final/IR.vhd|
+Z56 !s107 C:/Users/juan/Desktop/PDUA_Final/IR.vhd|
+!i113 1
+R12
+R13
+Artl
+R2
+R3
+R4
+Z57 DEx4 work 2 ir 0 22 GSUJ2WPCJ7cl]6<3^Xj]?3
+l19
+L18
+V78Ljd3V]IHIJlVF1kkBn]2
+!s100 oXH1OThI]^P5gYmSLb<G`2
+R7
+31
+R36
+!i10b 1
+R37
+R55
+R56
+!i113 1
+R12
+R13
+Emar
+Z58 w1654237700
+R2
+R3
+R4
+R0
+Z59 8C:/Users/juan/Desktop/PDUA_Final/MAR.vhd
+Z60 FC:/Users/juan/Desktop/PDUA_Final/MAR.vhd
+l0
+L6
+VPQhVY:eaBBDTT`YGDVGlL1
+!s100 T:2GGdmE3`H`@heEMj4Yd3
+R7
+31
+R36
+!i10b 1
+R37
+Z61 !s90 -reportprogress|300|-93|-work|work|C:/Users/juan/Desktop/PDUA_Final/MAR.vhd|
+Z62 !s107 C:/Users/juan/Desktop/PDUA_Final/MAR.vhd|
+!i113 1
+R12
+R13
+Artl
+R2
+R3
+R4
+Z63 DEx4 work 3 mar 0 22 PQhVY:eaBBDTT`YGDVGlL1
+l19
+L18
+V;glRm9=kW>:g8>gaGRH7C3
+!s100 =PI1neU03L[CjQJ<6mK2H3
+R7
+31
+R36
+!i10b 1
+R37
+R61
+R62
+!i113 1
+R12
+R13
+Emdr
+Z64 w1654237728
+R2
+R3
+R4
+R0
+Z65 8C:/Users/juan/Desktop/PDUA_Final/MDR.vhd
+Z66 FC:/Users/juan/Desktop/PDUA_Final/MDR.vhd
+l0
+L5
+VYQmeCS@IS0@7?7>hA6d3O2
+!s100 ?Y]Xof@IU2E:MB5^<<]Tn1
+R7
+31
+R36
+!i10b 1
+R37
+Z67 !s90 -reportprogress|300|-93|-work|work|C:/Users/juan/Desktop/PDUA_Final/MDR.vhd|
+Z68 !s107 C:/Users/juan/Desktop/PDUA_Final/MDR.vhd|
+!i113 1
+R12
+R13
+Artl
+R2
+R3
+R4
+Z69 DEx4 work 3 mdr 0 22 YQmeCS@IS0@7?7>hA6d3O2
+l32
+L21
+V^OC>zM:RN;[<H`J^g8WOQ0
+!s100 DQ9=Q>Vboa[K>X0nVVYEA2
+R7
+31
+R36
+!i10b 1
+R37
+R67
+R68
+!i113 1
+R12
+R13
+Enbit_adder
+Z70 w1654237770
+R2
+R3
+R4
+R0
+Z71 8C:/Users/juan/Desktop/PDUA_Final/nbit_adder.vhd
+Z72 FC:/Users/juan/Desktop/PDUA_Final/nbit_adder.vhd
+l0
+L5
+VY>:Gn6HL>oL7PWmhh[oA21
+!s100 aKzR`JozinQXC7H6K1C1>2
+R7
+31
+R8
+!i10b 1
+R9
+Z73 !s90 -reportprogress|300|-93|-work|work|C:/Users/juan/Desktop/PDUA_Final/nbit_adder.vhd|
+Z74 !s107 C:/Users/juan/Desktop/PDUA_Final/nbit_adder.vhd|
+!i113 1
+R12
+R13
+Artl
+R45
+R2
+R3
+R4
+R14
+l16
+L14
+V:lMN[=^i`:NN<Xk9UDUn90
+!s100 J>6G9>GK9A25AaXRI<VMD1
+R7
+31
+R8
+!i10b 1
+R9
+R73
+R74
+!i113 1
+R12
+R13
+Epdua
+Z75 w1654237361
+R2
+R3
+R4
+R0
+Z76 8C:/Users/juan/Desktop/PDUA_Final/PDUA.vhd
+Z77 FC:/Users/juan/Desktop/PDUA_Final/PDUA.vhd
+l0
+L5
+VCP4CA05]Uk7=LOe:k<RGZ0
+!s100 S:Uj<g_]>jli5d59AS7Xb0
+R7
+31
+R8
+!i10b 1
+R9
+Z78 !s90 -reportprogress|300|-93|-work|work|C:/Users/juan/Desktop/PDUA_Final/PDUA.vhd|
+Z79 !s107 C:/Users/juan/Desktop/PDUA_Final/PDUA.vhd|
+!i113 1
+R12
+R13
+Apdua_ctrl
+R32
+R51
+R24
+Z80 DEx4 work 5 spram 0 22 n;>>iJ8HAeZ`ca61CVCH93
+R69
+Z81 DEx4 work 13 register_bank 0 22 nVOMPMSEbWFNRHce<^=3?3
+R63
+R57
+R2
+R3
+R4
+Z82 DEx4 work 4 pdua 0 22 CP4CA05]Uk7=LOe:k<RGZ0
+l58
+L20
+VcYKU5hBEBFAClWUzn8gTM1
+!s100 >=ob@`QDRD_mV<HS:MclR3
+R7
+31
+R8
+!i10b 1
+R9
+R78
+R79
+!i113 1
+R12
+R13
+Epdua_tb
+Z83 w1654245568
+R2
+R3
+R4
+R0
+Z84 8C:/Users/juan/Desktop/PDUA_Final/PDUA_tb.vhd
+Z85 FC:/Users/juan/Desktop/PDUA_Final/PDUA_tb.vhd
+l0
+L5
+VR=GRAIRWh@g3nPIec8P<e0
+!s100 9SeGNhIic;hfa8SSWPia^2
+R7
+31
+Z86 !s110 1654245598
+!i10b 1
+R9
+Z87 !s90 -reportprogress|300|-93|-work|work|C:/Users/juan/Desktop/PDUA_Final/PDUA_tb.vhd|
+Z88 !s107 C:/Users/juan/Desktop/PDUA_Final/PDUA_tb.vhd|
+!i113 1
+R12
+R13
+Atestbench
+R82
+R2
+R3
+R4
+DEx4 work 7 pdua_tb 0 22 R=GRAIRWh@g3nPIec8P<e0
+l56
+L8
+VlRPE8]P0M^HmXGOEJbB2N2
+!s100 jaD<bCkVF4[PYhLG>DlhJ1
+R7
+31
+R86
+!i10b 1
+R9
+R87
+R88
+!i113 1
+R12
+R13
+Eprocessing_unit
+Z89 w1654237831
+R2
+R3
+R4
+R0
+Z90 8C:/Users/juan/Desktop/PDUA_Final/processing_unit.vhd
+Z91 FC:/Users/juan/Desktop/PDUA_Final/processing_unit.vhd
+l0
+L7
+V@R[OnVjeIaj<MbLd3=BQP0
+!s100 9WmQVz:K@HA[KfA1R9d<03
+R7
+31
+R8
+!i10b 1
+R9
+Z92 !s90 -reportprogress|300|-93|-work|work|C:/Users/juan/Desktop/PDUA_Final/processing_unit.vhd|
+Z93 !s107 C:/Users/juan/Desktop/PDUA_Final/processing_unit.vhd|
+!i113 1
+R12
+R13
+Artl
+R15
+R2
+R3
+R4
+R23
+l34
+L18
+V8MbM[V[eI]j<Cm8NJ:Y[Z3
+!s100 ]NmjUUonPg51UD1zHJKnZ3
+R7
+31
+R8
+!i10b 1
+R9
+R92
+R93
+!i113 1
+R12
+R13
+Eregister_bank
+Z94 w1654237860
+R2
+R3
+R4
+R0
+Z95 8C:/Users/juan/Desktop/PDUA_Final/Register_Bank.vhd
+Z96 FC:/Users/juan/Desktop/PDUA_Final/Register_Bank.vhd
+l0
+L6
+VnVOMPMSEbWFNRHce<^=3?3
+!s100 H;@84oEBaMjHk>MzUcNAa1
+R7
+31
+R36
+!i10b 1
+R37
+Z97 !s90 -reportprogress|300|-93|-work|work|C:/Users/juan/Desktop/PDUA_Final/Register_Bank.vhd|
+Z98 !s107 C:/Users/juan/Desktop/PDUA_Final/Register_Bank.vhd|
+!i113 1
+R12
+R13
+Artl
+R2
+R3
+R4
+R81
+l27
+L22
+VWQ^<6mB>:3]_IoXnS9A191
+!s100 N9DhhCUf8XC]l0WZGXPnK0
+R7
+31
+R36
+!i10b 1
+R37
+R97
+R98
+!i113 1
+R12
+R13
+Eshif_unit
+Z99 w1654237897
+R2
+R3
+R4
+R0
+Z100 8C:/Users/juan/Desktop/PDUA_Final/shif_unit.vhd
+Z101 FC:/Users/juan/Desktop/PDUA_Final/shif_unit.vhd
+l0
+L5
+V0liHCUURePMElBYKSbG0i2
+!s100 j7dXOZ:ib6>O6EknN6;hK1
+R7
+31
+R36
+!i10b 1
+R37
+Z102 !s90 -reportprogress|300|-93|-work|work|C:/Users/juan/Desktop/PDUA_Final/shif_unit.vhd|
+Z103 !s107 C:/Users/juan/Desktop/PDUA_Final/shif_unit.vhd|
+!i113 1
+R12
+R13
+Artl
+R2
+R3
+R4
+R21
+l16
+L15
+Vafz@TBIE_1V4g]<nbKlm51
+!s100 _RoYkPa_k^dg43<Q3V?d;1
+R7
+31
+R36
+!i10b 1
+R37
+R102
+R103
+!i113 1
+R12
+R13
+Espram
+Z104 w1654237930
+R2
+R3
+R4
+R0
+Z105 8C:/Users/juan/Desktop/PDUA_Final/spram.vhd
+Z106 FC:/Users/juan/Desktop/PDUA_Final/spram.vhd
+l0
+L5
+Vn;>>iJ8HAeZ`ca61CVCH93
+!s100 `0eb=MhBblI66P5L9FNjO2
+R7
+31
+R36
+!i10b 1
+R37
+Z107 !s90 -reportprogress|300|-93|-work|work|C:/Users/juan/Desktop/PDUA_Final/spram.vhd|
+Z108 !s107 C:/Users/juan/Desktop/PDUA_Final/spram.vhd|
+!i113 1
+R12
+R13
+Artl
+R2
+R3
+R4
+R80
+l26
+L18
+VgMj`a[^N@3oOXIYPTJOUJ2
+!s100 @jkej5ITh1>3U1JW^e:[n3
+R7
+31
+R36
+!i10b 1
+R37
+R107
+R108
+!i113 1
+R12
+R13
+Eupc
+Z109 w1654237957
+R2
+R3
+R4
+R0
+Z110 8C:/Users/juan/Desktop/PDUA_Final/upc.vhd
+Z111 FC:/Users/juan/Desktop/PDUA_Final/upc.vhd
+l0
+L5
+Vi`aWd?cG?VGb]_Aaf?j[32
+!s100 AEZ1IN]T^ZcFGAUAiAb9_1
+R7
+31
+R8
+!i10b 1
+R37
+Z112 !s90 -reportprogress|300|-93|-work|work|C:/Users/juan/Desktop/PDUA_Final/upc.vhd|
+Z113 !s107 C:/Users/juan/Desktop/PDUA_Final/upc.vhd|
+!i113 1
+R12
+R13
+Artl
+R2
+R3
+R4
+R31
+l21
+L17
+VRIP:>BaINhd966Z`TlA9E2
+!s100 1hCCd4ZC>LZ9Ym=20]:SR2
+R7
+31
+R8
+!i10b 1
+R37
+R112
+R113
+!i113 1
+R12
+R13
+Euprogrammemory
+Z114 w1654238004
+R2
+R3
+R4
+R0
+Z115 8C:/Users/juan/Desktop/PDUA_Final/uProgramMemory.vhd
+Z116 FC:/Users/juan/Desktop/PDUA_Final/uProgramMemory.vhd
+l0
+L5
+V]<7cfO_?mFg?4QKL7AC8N1
+!s100 oEkf035dU^Kg?jE486QUY2
+R7
+31
+R8
+!i10b 1
+R9
+Z117 !s90 -reportprogress|300|-93|-work|work|C:/Users/juan/Desktop/PDUA_Final/uProgramMemory.vhd|
+Z118 !s107 C:/Users/juan/Desktop/PDUA_Final/uProgramMemory.vhd|
+!i113 1
+R12
+R13
+Abehavioral
+R2
+R3
+R4
+R30
+l12
+L11
+VF?Kb1@Ef_5[igTfm=heOl3
+!s100 0nHm6ga_YE[1KQQ5U`:U23
+R7
+31
+R8
+!i10b 1
+R9
+R117
+R118
+!i113 1
+R12
+R13

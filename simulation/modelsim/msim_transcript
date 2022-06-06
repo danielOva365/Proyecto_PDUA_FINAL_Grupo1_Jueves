@@ -1,0 +1,411 @@
+# Reading C:/intelFPGA_lite/17.1/modelsim_ase/tcl/vsim/pref.tcl
+# do PDUA_run_msim_rtl_vhdl.do
+# if {[file exists rtl_work]} {
+# 	vdel -lib rtl_work -all
+# }
+# vlib rtl_work
+# vmap work rtl_work
+# Model Technology ModelSim - Intel FPGA Edition vmap 10.5b Lib Mapping Utility 2016.10 Oct  5 2016
+# vmap work rtl_work 
+# Copying C:/intelFPGA_lite/17.1/modelsim_ase/win32aloem/../modelsim.ini to modelsim.ini
+# Modifying modelsim.ini
+# 
+# vcom -93 -work work {C:/Users/juan/Desktop/PDUA_Final/flag_register.vhd}
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 03:39:56 on Jun 03,2022
+# vcom -reportprogress 300 -93 -work work C:/Users/juan/Desktop/PDUA_Final/flag_register.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity flag_register
+# -- Compiling architecture rtl of flag_register
+# End time: 03:39:56 on Jun 03,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vcom -93 -work work {C:/Users/juan/Desktop/PDUA_Final/full_adder.vhd}
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 03:39:56 on Jun 03,2022
+# vcom -reportprogress 300 -93 -work work C:/Users/juan/Desktop/PDUA_Final/full_adder.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity full_adder
+# -- Compiling architecture gatelevel of full_adder
+# End time: 03:39:56 on Jun 03,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vcom -93 -work work {C:/Users/juan/Desktop/PDUA_Final/INT_REG.vhd}
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 03:39:56 on Jun 03,2022
+# vcom -reportprogress 300 -93 -work work C:/Users/juan/Desktop/PDUA_Final/INT_REG.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity INT_REG
+# -- Compiling architecture RTL of INT_REG
+# End time: 03:39:56 on Jun 03,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vcom -93 -work work {C:/Users/juan/Desktop/PDUA_Final/IR.vhd}
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 03:39:56 on Jun 03,2022
+# vcom -reportprogress 300 -93 -work work C:/Users/juan/Desktop/PDUA_Final/IR.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity IR
+# -- Compiling architecture rtl of IR
+# End time: 03:39:56 on Jun 03,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vcom -93 -work work {C:/Users/juan/Desktop/PDUA_Final/MAR.vhd}
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 03:39:56 on Jun 03,2022
+# vcom -reportprogress 300 -93 -work work C:/Users/juan/Desktop/PDUA_Final/MAR.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity MAR
+# -- Compiling architecture rtl of MAR
+# End time: 03:39:56 on Jun 03,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vcom -93 -work work {C:/Users/juan/Desktop/PDUA_Final/MDR.vhd}
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 03:39:56 on Jun 03,2022
+# vcom -reportprogress 300 -93 -work work C:/Users/juan/Desktop/PDUA_Final/MDR.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity MDR
+# -- Compiling architecture RTL of MDR
+# End time: 03:39:56 on Jun 03,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vcom -93 -work work {C:/Users/juan/Desktop/PDUA_Final/Register_Bank.vhd}
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 03:39:56 on Jun 03,2022
+# vcom -reportprogress 300 -93 -work work C:/Users/juan/Desktop/PDUA_Final/Register_Bank.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity Register_Bank
+# -- Compiling architecture rtl of Register_Bank
+# End time: 03:39:56 on Jun 03,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vcom -93 -work work {C:/Users/juan/Desktop/PDUA_Final/shif_unit.vhd}
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 03:39:56 on Jun 03,2022
+# vcom -reportprogress 300 -93 -work work C:/Users/juan/Desktop/PDUA_Final/shif_unit.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity shif_unit
+# -- Compiling architecture rtl of shif_unit
+# End time: 03:39:56 on Jun 03,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vcom -93 -work work {C:/Users/juan/Desktop/PDUA_Final/spram.vhd}
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 03:39:56 on Jun 03,2022
+# vcom -reportprogress 300 -93 -work work C:/Users/juan/Desktop/PDUA_Final/spram.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity spram
+# -- Compiling architecture rtl of spram
+# End time: 03:39:56 on Jun 03,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vcom -93 -work work {C:/Users/juan/Desktop/PDUA_Final/upc.vhd}
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 03:39:56 on Jun 03,2022
+# vcom -reportprogress 300 -93 -work work C:/Users/juan/Desktop/PDUA_Final/upc.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity upc
+# -- Compiling architecture RTL of upc
+# End time: 03:39:57 on Jun 03,2022, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# vcom -93 -work work {C:/Users/juan/Desktop/PDUA_Final/uProgramMemory.vhd}
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 03:39:57 on Jun 03,2022
+# vcom -reportprogress 300 -93 -work work C:/Users/juan/Desktop/PDUA_Final/uProgramMemory.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity uProgramMemory
+# -- Compiling architecture behavioral of uProgramMemory
+# End time: 03:39:57 on Jun 03,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vcom -93 -work work {C:/Users/juan/Desktop/PDUA_Final/nbit_adder.vhd}
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 03:39:57 on Jun 03,2022
+# vcom -reportprogress 300 -93 -work work C:/Users/juan/Desktop/PDUA_Final/nbit_adder.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity nbit_adder
+# -- Compiling architecture rtl of nbit_adder
+# -- Loading entity full_adder
+# End time: 03:39:57 on Jun 03,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vcom -93 -work work {C:/Users/juan/Desktop/PDUA_Final/add_sub.vhd}
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 03:39:57 on Jun 03,2022
+# vcom -reportprogress 300 -93 -work work C:/Users/juan/Desktop/PDUA_Final/add_sub.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity add_sub
+# -- Compiling architecture rtl of add_sub
+# -- Loading entity nbit_adder
+# End time: 03:39:57 on Jun 03,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vcom -93 -work work {C:/Users/juan/Desktop/PDUA_Final/control_unit.vhd}
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 03:39:57 on Jun 03,2022
+# vcom -reportprogress 300 -93 -work work C:/Users/juan/Desktop/PDUA_Final/control_unit.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity Control_unit
+# -- Compiling architecture RTL of Control_unit
+# -- Loading entity upc
+# -- Loading entity add_sub
+# -- Loading entity uProgramMemory
+# End time: 03:39:57 on Jun 03,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vcom -93 -work work {C:/Users/juan/Desktop/PDUA_Final/processing_unit.vhd}
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 03:39:57 on Jun 03,2022
+# vcom -reportprogress 300 -93 -work work C:/Users/juan/Desktop/PDUA_Final/processing_unit.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity processing_unit
+# -- Compiling architecture rtl of processing_unit
+# -- Loading entity add_sub
+# End time: 03:39:57 on Jun 03,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vcom -93 -work work {C:/Users/juan/Desktop/PDUA_Final/ALU.vhd}
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 03:39:57 on Jun 03,2022
+# vcom -reportprogress 300 -93 -work work C:/Users/juan/Desktop/PDUA_Final/ALU.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity ALU
+# -- Compiling architecture RTL of ALU
+# -- Loading entity processing_unit
+# -- Loading entity flag_register
+# -- Loading entity shif_unit
+# End time: 03:39:57 on Jun 03,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vcom -93 -work work {C:/Users/juan/Desktop/PDUA_Final/PDUA.vhd}
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 03:39:57 on Jun 03,2022
+# vcom -reportprogress 300 -93 -work work C:/Users/juan/Desktop/PDUA_Final/PDUA.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity PDUA
+# -- Compiling architecture PDUA_ctrl of PDUA
+# -- Loading entity IR
+# -- Loading entity MAR
+# -- Loading entity Register_Bank
+# -- Loading entity MDR
+# -- Loading entity spram
+# -- Loading entity ALU
+# -- Loading entity INT_REG
+# -- Loading entity Control_unit
+# End time: 03:39:57 on Jun 03,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# 
+# vcom -93 -work work {C:/Users/juan/Desktop/PDUA_Final/PDUA_tb.vhd}
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 03:39:57 on Jun 03,2022
+# vcom -reportprogress 300 -93 -work work C:/Users/juan/Desktop/PDUA_Final/PDUA_tb.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity PDUA_tb
+# -- Compiling architecture testbench of PDUA_tb
+# -- Loading entity PDUA
+# ** Warning: C:/Users/juan/Desktop/PDUA_Final/PDUA_tb.vhd(70): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Warning: C:/Users/juan/Desktop/PDUA_Final/PDUA_tb.vhd(71): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Warning: C:/Users/juan/Desktop/PDUA_Final/PDUA_tb.vhd(72): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Warning: C:/Users/juan/Desktop/PDUA_Final/PDUA_tb.vhd(73): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Warning: C:/Users/juan/Desktop/PDUA_Final/PDUA_tb.vhd(74): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Warning: C:/Users/juan/Desktop/PDUA_Final/PDUA_tb.vhd(75): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Warning: C:/Users/juan/Desktop/PDUA_Final/PDUA_tb.vhd(76): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Warning: C:/Users/juan/Desktop/PDUA_Final/PDUA_tb.vhd(77): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Warning: C:/Users/juan/Desktop/PDUA_Final/PDUA_tb.vhd(78): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Warning: C:/Users/juan/Desktop/PDUA_Final/PDUA_tb.vhd(79): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Warning: C:/Users/juan/Desktop/PDUA_Final/PDUA_tb.vhd(81): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Warning: C:/Users/juan/Desktop/PDUA_Final/PDUA_tb.vhd(83): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Warning: C:/Users/juan/Desktop/PDUA_Final/PDUA_tb.vhd(84): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Warning: C:/Users/juan/Desktop/PDUA_Final/PDUA_tb.vhd(85): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Warning: C:/Users/juan/Desktop/PDUA_Final/PDUA_tb.vhd(86): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Warning: C:/Users/juan/Desktop/PDUA_Final/PDUA_tb.vhd(88): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Warning: C:/Users/juan/Desktop/PDUA_Final/PDUA_tb.vhd(89): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Warning: C:/Users/juan/Desktop/PDUA_Final/PDUA_tb.vhd(90): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Warning: C:/Users/juan/Desktop/PDUA_Final/PDUA_tb.vhd(92): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Warning: C:/Users/juan/Desktop/PDUA_Final/PDUA_tb.vhd(93): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Warning: C:/Users/juan/Desktop/PDUA_Final/PDUA_tb.vhd(95): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Warning: C:/Users/juan/Desktop/PDUA_Final/PDUA_tb.vhd(96): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Warning: C:/Users/juan/Desktop/PDUA_Final/PDUA_tb.vhd(98): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Warning: C:/Users/juan/Desktop/PDUA_Final/PDUA_tb.vhd(100): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Warning: C:/Users/juan/Desktop/PDUA_Final/PDUA_tb.vhd(101): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Warning: C:/Users/juan/Desktop/PDUA_Final/PDUA_tb.vhd(103): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Warning: C:/Users/juan/Desktop/PDUA_Final/PDUA_tb.vhd(105): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Warning: C:/Users/juan/Desktop/PDUA_Final/PDUA_tb.vhd(107): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Warning: C:/Users/juan/Desktop/PDUA_Final/PDUA_tb.vhd(108): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Warning: C:/Users/juan/Desktop/PDUA_Final/PDUA_tb.vhd(109): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Warning: C:/Users/juan/Desktop/PDUA_Final/PDUA_tb.vhd(110): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Warning: C:/Users/juan/Desktop/PDUA_Final/PDUA_tb.vhd(112): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Warning: C:/Users/juan/Desktop/PDUA_Final/PDUA_tb.vhd(113): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Warning: C:/Users/juan/Desktop/PDUA_Final/PDUA_tb.vhd(114): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Warning: C:/Users/juan/Desktop/PDUA_Final/PDUA_tb.vhd(115): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Warning: C:/Users/juan/Desktop/PDUA_Final/PDUA_tb.vhd(116): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Warning: C:/Users/juan/Desktop/PDUA_Final/PDUA_tb.vhd(118): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Warning: C:/Users/juan/Desktop/PDUA_Final/PDUA_tb.vhd(119): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Warning: C:/Users/juan/Desktop/PDUA_Final/PDUA_tb.vhd(120): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Warning: C:/Users/juan/Desktop/PDUA_Final/PDUA_tb.vhd(121): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Warning: C:/Users/juan/Desktop/PDUA_Final/PDUA_tb.vhd(122): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Warning: C:/Users/juan/Desktop/PDUA_Final/PDUA_tb.vhd(124): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Warning: C:/Users/juan/Desktop/PDUA_Final/PDUA_tb.vhd(125): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Warning: C:/Users/juan/Desktop/PDUA_Final/PDUA_tb.vhd(126): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Warning: C:/Users/juan/Desktop/PDUA_Final/PDUA_tb.vhd(127): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Warning: C:/Users/juan/Desktop/PDUA_Final/PDUA_tb.vhd(128): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Warning: C:/Users/juan/Desktop/PDUA_Final/PDUA_tb.vhd(130): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Warning: C:/Users/juan/Desktop/PDUA_Final/PDUA_tb.vhd(131): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Warning: C:/Users/juan/Desktop/PDUA_Final/PDUA_tb.vhd(132): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Warning: C:/Users/juan/Desktop/PDUA_Final/PDUA_tb.vhd(133): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Warning: C:/Users/juan/Desktop/PDUA_Final/PDUA_tb.vhd(134): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Warning: C:/Users/juan/Desktop/PDUA_Final/PDUA_tb.vhd(135): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Warning: C:/Users/juan/Desktop/PDUA_Final/PDUA_tb.vhd(136): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Warning: C:/Users/juan/Desktop/PDUA_Final/PDUA_tb.vhd(137): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Warning: C:/Users/juan/Desktop/PDUA_Final/PDUA_tb.vhd(139): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Warning: C:/Users/juan/Desktop/PDUA_Final/PDUA_tb.vhd(140): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Warning: C:/Users/juan/Desktop/PDUA_Final/PDUA_tb.vhd(141): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Warning: C:/Users/juan/Desktop/PDUA_Final/PDUA_tb.vhd(142): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Warning: C:/Users/juan/Desktop/PDUA_Final/PDUA_tb.vhd(143): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Warning: C:/Users/juan/Desktop/PDUA_Final/PDUA_tb.vhd(144): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Warning: C:/Users/juan/Desktop/PDUA_Final/PDUA_tb.vhd(146): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Warning: C:/Users/juan/Desktop/PDUA_Final/PDUA_tb.vhd(147): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Warning: C:/Users/juan/Desktop/PDUA_Final/PDUA_tb.vhd(148): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Warning: C:/Users/juan/Desktop/PDUA_Final/PDUA_tb.vhd(149): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Warning: C:/Users/juan/Desktop/PDUA_Final/PDUA_tb.vhd(151): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Warning: C:/Users/juan/Desktop/PDUA_Final/PDUA_tb.vhd(152): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Warning: C:/Users/juan/Desktop/PDUA_Final/PDUA_tb.vhd(153): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Warning: C:/Users/juan/Desktop/PDUA_Final/PDUA_tb.vhd(154): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Warning: C:/Users/juan/Desktop/PDUA_Final/PDUA_tb.vhd(156): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Warning: C:/Users/juan/Desktop/PDUA_Final/PDUA_tb.vhd(157): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Warning: C:/Users/juan/Desktop/PDUA_Final/PDUA_tb.vhd(158): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Warning: C:/Users/juan/Desktop/PDUA_Final/PDUA_tb.vhd(159): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Warning: C:/Users/juan/Desktop/PDUA_Final/PDUA_tb.vhd(160): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Warning: C:/Users/juan/Desktop/PDUA_Final/PDUA_tb.vhd(162): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Warning: C:/Users/juan/Desktop/PDUA_Final/PDUA_tb.vhd(163): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Warning: C:/Users/juan/Desktop/PDUA_Final/PDUA_tb.vhd(165): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Warning: C:/Users/juan/Desktop/PDUA_Final/PDUA_tb.vhd(166): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Warning: C:/Users/juan/Desktop/PDUA_Final/PDUA_tb.vhd(168): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Warning: C:/Users/juan/Desktop/PDUA_Final/PDUA_tb.vhd(169): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Warning: C:/Users/juan/Desktop/PDUA_Final/PDUA_tb.vhd(171): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Warning: C:/Users/juan/Desktop/PDUA_Final/PDUA_tb.vhd(172): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Warning: C:/Users/juan/Desktop/PDUA_Final/PDUA_tb.vhd(173): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Warning: C:/Users/juan/Desktop/PDUA_Final/PDUA_tb.vhd(175): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Warning: C:/Users/juan/Desktop/PDUA_Final/PDUA_tb.vhd(176): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Warning: C:/Users/juan/Desktop/PDUA_Final/PDUA_tb.vhd(178): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Warning: C:/Users/juan/Desktop/PDUA_Final/PDUA_tb.vhd(179): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Warning: C:/Users/juan/Desktop/PDUA_Final/PDUA_tb.vhd(181): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Warning: C:/Users/juan/Desktop/PDUA_Final/PDUA_tb.vhd(182): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Warning: C:/Users/juan/Desktop/PDUA_Final/PDUA_tb.vhd(183): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Warning: C:/Users/juan/Desktop/PDUA_Final/PDUA_tb.vhd(184): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Warning: C:/Users/juan/Desktop/PDUA_Final/PDUA_tb.vhd(185): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Warning: C:/Users/juan/Desktop/PDUA_Final/PDUA_tb.vhd(186): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Warning: C:/Users/juan/Desktop/PDUA_Final/PDUA_tb.vhd(188): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Warning: C:/Users/juan/Desktop/PDUA_Final/PDUA_tb.vhd(189): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Warning: C:/Users/juan/Desktop/PDUA_Final/PDUA_tb.vhd(190): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Warning: C:/Users/juan/Desktop/PDUA_Final/PDUA_tb.vhd(191): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Warning: C:/Users/juan/Desktop/PDUA_Final/PDUA_tb.vhd(192): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Warning: C:/Users/juan/Desktop/PDUA_Final/PDUA_tb.vhd(194): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Warning: C:/Users/juan/Desktop/PDUA_Final/PDUA_tb.vhd(195): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Warning: C:/Users/juan/Desktop/PDUA_Final/PDUA_tb.vhd(196): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Warning: C:/Users/juan/Desktop/PDUA_Final/PDUA_tb.vhd(197): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Warning: C:/Users/juan/Desktop/PDUA_Final/PDUA_tb.vhd(198): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Warning: C:/Users/juan/Desktop/PDUA_Final/PDUA_tb.vhd(199): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Warning: C:/Users/juan/Desktop/PDUA_Final/PDUA_tb.vhd(201): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Warning: C:/Users/juan/Desktop/PDUA_Final/PDUA_tb.vhd(202): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Warning: C:/Users/juan/Desktop/PDUA_Final/PDUA_tb.vhd(203): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Warning: C:/Users/juan/Desktop/PDUA_Final/PDUA_tb.vhd(204): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Warning: C:/Users/juan/Desktop/PDUA_Final/PDUA_tb.vhd(205): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Warning: C:/Users/juan/Desktop/PDUA_Final/PDUA_tb.vhd(206): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Warning: C:/Users/juan/Desktop/PDUA_Final/PDUA_tb.vhd(208): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Warning: C:/Users/juan/Desktop/PDUA_Final/PDUA_tb.vhd(209): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Warning: C:/Users/juan/Desktop/PDUA_Final/PDUA_tb.vhd(210): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Warning: C:/Users/juan/Desktop/PDUA_Final/PDUA_tb.vhd(211): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Warning: C:/Users/juan/Desktop/PDUA_Final/PDUA_tb.vhd(213): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Warning: C:/Users/juan/Desktop/PDUA_Final/PDUA_tb.vhd(214): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Warning: C:/Users/juan/Desktop/PDUA_Final/PDUA_tb.vhd(215): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Warning: C:/Users/juan/Desktop/PDUA_Final/PDUA_tb.vhd(216): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Warning: C:/Users/juan/Desktop/PDUA_Final/PDUA_tb.vhd(217): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Warning: C:/Users/juan/Desktop/PDUA_Final/PDUA_tb.vhd(218): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Warning: C:/Users/juan/Desktop/PDUA_Final/PDUA_tb.vhd(219): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Warning: C:/Users/juan/Desktop/PDUA_Final/PDUA_tb.vhd(220): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# End time: 03:39:58 on Jun 03,2022, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 121
+# 
+# vsim -t 1ps -L altera -L lpm -L sgate -L altera_mf -L altera_lnsim -L cyclonev -L rtl_work -L work -voptargs="+acc"  PDUA_tb
+# vsim -t 1ps -L altera -L lpm -L sgate -L altera_mf -L altera_lnsim -L cyclonev -L rtl_work -L work -voptargs=""+acc"" PDUA_tb 
+# Start time: 03:39:58 on Jun 03,2022
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.numeric_std(body)
+# Loading work.pdua_tb(testbench)
+# Loading work.pdua(pdua_ctrl)
+# Loading work.ir(rtl)
+# Loading work.mar(rtl)
+# Loading work.register_bank(rtl)
+# Loading work.mdr(rtl)
+# Loading work.spram(rtl)
+# Loading work.alu(rtl)
+# Loading work.processing_unit(rtl)
+# Loading work.add_sub(rtl)
+# Loading work.nbit_adder(rtl)
+# Loading work.full_adder(gatelevel)
+# Loading work.flag_register(rtl)
+# Loading work.shif_unit(rtl)
+# Loading work.int_reg(rtl)
+# Loading work.control_unit(rtl)
+# Loading work.upc(rtl)
+# Loading work.uprogrammemory(behavioral)
+# 
+# add wave *
+# view structure
+# .main_pane.structure.interior.cs.body.struct
+# view signals
+# .main_pane.objects.interior.cs.body.tree
+# run -all
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ps  Iteration: 0  Instance: /pdua_tb/DUT/spram_component
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ps  Iteration: 1  Instance: /pdua_tb/DUT/register_bank_component
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ps  Iteration: 3  Instance: /pdua_tb/DUT/register_bank_component
+# Break key hit
+# Simulation stop requested.
+# End time: 03:42:40 on Jun 03,2022, Elapsed time: 0:02:42
+# Errors: 0, Warnings: 3
